@@ -4,7 +4,7 @@ import sys
 #Input: Sorted by Value: 
 #		NodeId A \t PageRank / TotalOutLinks
 #       NodeId B \t <All ToNodeIds> 
-#Ouput: NodeId\t Page_Rank_<All ToNodeIds>
+#Ouput: NodeId\t Page_Rank
 current_NodeId = None
 d = 0.85
 Page_Rank = None
