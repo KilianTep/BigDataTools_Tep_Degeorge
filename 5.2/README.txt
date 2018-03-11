@@ -1,5 +1,5 @@
 Exercise 5.2 for Celine Hudelot's class: Big Data Algorithms
-PageRanking implementation of Directed Graph (Soc Epinions)
+PageRank implementation of Directed Graph (Soc Epinions)
 Hadoop: 2.8.2
 Python: 3.6.3
 
