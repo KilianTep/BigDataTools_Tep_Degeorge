@@ -14,7 +14,7 @@ public class Text {
 
     public static void main(String[] args) throws IOException {
 
-        String txtFile = "/Users/Jean/Desktop/text.txt";
+        String txtFile = "text.txt";
     
         Configuration conf = new Configuration();
         

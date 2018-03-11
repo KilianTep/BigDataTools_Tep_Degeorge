@@ -14,7 +14,7 @@ public class Tree {
 
     public static void main(String[] args) throws IOException {
 
-        String csvFile = "/Users/Jean/Downloads/arbres.csv";
+        String csvFile = "arbres.csv";
         
         Configuration conf = new Configuration();
         
