@@ -36,3 +36,5 @@ Reducer:
   
   - Sorting job:
   Last file, which uses pandas Dataframe for sorting
+
+Source: https://marcellodesales.wordpress.com/2009/12/31/tf-idf-in-hadoop-part-1-word-frequency-in-doc/
