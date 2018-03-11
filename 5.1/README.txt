@@ -35,6 +35,7 @@ Reducer:
   Output: ((word@document), d/D, (n/N), TFIDF)
   
   - Sorting job:
-  Last file, which uses pandas Dataframe for sorting
+  Last file, which uses pandas Dataframe for sorting.
+  Prints the top 20 words with highest TF-IDF scores.
 
 Source: https://marcellodesales.wordpress.com/2009/12/31/tf-idf-in-hadoop-part-1-word-frequency-in-doc/
