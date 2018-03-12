@@ -7,16 +7,15 @@ import sys
 current_FromNodeId = None
 # input comes from STDIN (standard input)
 for line in sys.stdin:
-
+    #description of dataset starts with '#''
+    #we do not want to treat the data if it starts with '#''
     if line[0] is not '#':
 
     # remove leading and trailing whitespace
         line = line.strip()
     # split the line into separate departure node and arrival Node
         FromNodeId, ToNodeId= line.split('\t')
-    
-    #description of dataset starts with '#''
-    #we do not want to treat the data if it starts with '#''
+   
         # this IF-switch only works because initial dataset
         # is already well sorted
         if current_FromNodeId==FromNodeId:
