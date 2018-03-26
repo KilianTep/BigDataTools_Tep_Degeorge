@@ -2,7 +2,7 @@
 import sys
 import string
 
-#Input: FromNodeId \t 1.0_<All ToNodeIds>
+#Input: FromNodeId \t 0.5_<All ToNodeIds>
 #Output: ToNodeId A \t (PageRank / TotalOutLinks)
 #        FromNode B \t <All ToNodeIds> 
 #We are putting A,B as distinct markers we will reuse in the reducer
