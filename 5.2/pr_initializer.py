@@ -2,7 +2,7 @@
 import sys
 
 #Input: FromNodeId \t ToNodeId
-#Ouput: FromNodeId \t 1.0_<All ToNodeIds>
+#Ouput: FromNodeId \t 0.5_<All ToNodeIds>
 
 current_FromNodeId = None
 # input comes from STDIN (standard input)
